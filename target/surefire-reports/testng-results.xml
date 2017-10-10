@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46524" started-at="2017-10-09T22:17:42Z" finished-at="2017-10-09T22:18:29Z">
+    <groups>
+    </groups>
+    <test name="Homepage Find iphone 7" duration-ms="24025" started-at="2017-10-09T22:17:42Z" finished-at="2017-10-09T22:18:06Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@63021689]" name="initialize" is-config="true" duration-ms="2965" started-at="2017-10-10T11:17:42Z" finished-at="2017-10-10T11:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="baseSearchForPhone()[pri:0, instance:Academy.HomePage@63021689]" name="baseSearchForPhone" duration-ms="18913" started-at="2017-10-10T11:17:45Z" finished-at="2017-10-10T11:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSearchForPhone -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@63021689]" name="teardown" is-config="true" duration-ms="2129" started-at="2017-10-10T11:18:04Z" finished-at="2017-10-10T11:18:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Homepage Find iphone 7 -->
+    <test name="Validating Login in the HomePage" duration-ms="13331" started-at="2017-10-09T22:18:07Z" finished-at="2017-10-09T22:18:20Z">
+      <class name="Academy.validateLogin">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateLogin@48ae9b55]" name="initialize" is-config="true" duration-ms="7289" started-at="2017-10-10T11:18:07Z" finished-at="2017-10-10T11:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateLoginUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.validateLogin@48ae9b55]" name="validateLoginUser" duration-ms="2244" started-at="2017-10-10T11:18:14Z" data-provider="getData" finished-at="2017-10-10T11:18:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qintaovictor@msn.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrcited User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginUser -->
+        <test-method status="PASS" signature="validateLoginUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.validateLogin@48ae9b55]" name="validateLoginUser" duration-ms="1629" started-at="2017-10-10T11:18:16Z" data-provider="getData" finished-at="2017-10-10T11:18:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qintaovictor@163.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qt62yenmgu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateLogin@48ae9b55]" name="teardown" is-config="true" duration-ms="2164" started-at="2017-10-10T11:18:18Z" finished-at="2017-10-10T11:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateLogin -->
+    </test> <!-- Validating Login in the HomePage -->
+    <test name="App Testing" duration-ms="0" started-at="2017-10-09T22:18:20Z" finished-at="2017-10-09T22:18:20Z">
+    </test> <!-- App Testing -->
+    <test name="Validating Register" duration-ms="9122" started-at="2017-10-09T22:18:20Z" finished-at="2017-10-09T22:18:29Z">
+      <class name="Academy.validateRegister">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateRegister@659499f1]" name="initialize" is-config="true" duration-ms="6830" started-at="2017-10-10T11:18:20Z" finished-at="2017-10-10T11:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="createNewUser()[pri:0, instance:Academy.validateRegister@659499f1]" name="createNewUser" duration-ms="198" started-at="2017-10-10T11:18:27Z" finished-at="2017-10-10T11:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateRegister@659499f1]" name="teardown" is-config="true" duration-ms="2093" started-at="2017-10-10T11:18:27Z" finished-at="2017-10-10T11:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateRegister -->
+    </test> <!-- Validating Register -->
+  </suite> <!-- Suite -->
+</testng-results>

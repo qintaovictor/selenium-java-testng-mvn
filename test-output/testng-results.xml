@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13937" started-at="2017-10-03T20:19:34Z" finished-at="2017-10-03T20:19:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13937" started-at="2017-10-03T20:19:34Z" finished-at="2017-10-03T20:19:48Z">
+      <class name="Academy.validateLogin">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateLogin@4ef37659]" name="initialize" is-config="true" duration-ms="8043" started-at="2017-10-04T09:19:34Z" finished-at="2017-10-04T09:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateLoginUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.validateLogin@4ef37659]" name="validateLoginUser" duration-ms="2193" started-at="2017-10-04T09:19:42Z" data-provider="getData" finished-at="2017-10-04T09:19:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qintaovictor@msn.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrcited User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginUser -->
+        <test-method status="PASS" signature="validateLoginUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.validateLogin@4ef37659]" name="validateLoginUser" duration-ms="1514" started-at="2017-10-04T09:19:44Z" data-provider="getData" finished-at="2017-10-04T09:19:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qintaovictor@163.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qt62yenmgu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateLogin@4ef37659]" name="teardown" is-config="true" duration-ms="2158" started-at="2017-10-04T09:19:46Z" finished-at="2017-10-04T09:19:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+11:01:50.904 [main] INFO  resources.base - *******Remember clicked*******
+11:01:55.076 [main] INFO  resources.base - Driver is initialized
+11:02:06.553 [main] INFO  resources.base - Navigated to Home page
+11:18:16.386 [main] INFO  resources.base - Restrcited User
+11:18:16.557 [main] INFO  resources.base - *******Remember clicked*******
+11:18:18.092 [main] INFO  resources.base - Non restricted user
+11:18:18.187 [main] INFO  resources.base - *******Remember clicked*******
+11:18:22.438 [main] INFO  resources.base - Driver is initialized
