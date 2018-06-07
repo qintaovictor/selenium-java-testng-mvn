@@ -40,7 +40,7 @@ public class HomePage extends base {
 		l.getSearch().click();
 		l.getSearch().sendKeys("iphone7 plus");
 		l.getSearchButton().click();
-		l.getMobilePhone().click();
+	
 
 	}
 
