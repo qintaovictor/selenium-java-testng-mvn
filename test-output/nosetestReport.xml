@@ -1,0 +1,153 @@
+<testsuite name="nosetests" tests="15" errors="0" failures="0" skip="0">
+<testcase classname="test_voa_pxie.test_voa" name="test_control_channel_mode" time="0.160">
+<system-out>
+<![CDATA[
+The scpi command is CONT6:chan1:mode/? The set value is ATTENUATION The return value is ATTENUATION The expect value is ATTENUATION Run test function: test_control_channel_mode pass! The set value is ATTENUATION The return value is ATTENUATION The expect value is ATTENUATION Run test function: test_control_channel_mode pass! The set value is ATTENUATION The return value is ATTENUATION The expect value is ATTENUATION Run test function: test_control_channel_mode pass! The set value is POWER The return value is POWER The expect value is POWER Run test function: test_control_channel_mode pass! The set value is RAW The return value is RAW The expect value is RAW Run test function: test_control_channel_mode pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_control_channel_mode" time="0.160">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_input_amode" time="0.161">
+<system-out>
+<![CDATA[
+The scpi command is INPut6:CHAN1:AMODE/? The set value is ABSOLUTE The return value is ABSOLUTE The expect value is ABSOLUTE Run test function: test_input_amode pass! The set value is ABSOLUTE The return value is ABSOLUTE The expect value is ABSOLUTE Run test function: test_input_amode pass! The set value is OFFSET The return value is OFFSET The expect value is OFFSET Run test function: test_input_amode pass! The set value is ABSOLUTE The return value is ABSOLUTE The expect value is ABSOLUTE Run test function: test_input_amode pass! The set value is RELATIVE The return value is RELATIVE The expect value is RELATIVE Run test function: test_input_amode pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_input_amode" time="0.161">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_input_attenuation" time="0.110">
+<system-out>
+<![CDATA[
+The scpi command is INP6:CHAN1:ATTenuation/? {'max': 48.37, 'set': 0.01, 'act': 0.05, 'def': 0.0, 'min': 0.0} min The set value is 0.00 The return value is 0.0 The expect value is 0.00 Run test function: test_input_attenuation pass! max The set value is 48.37 The return value is 48.37 The expect value is 48.37 Run test function: test_input_attenuation pass! def The set value is 0.00 The return value is 0.0 The expect value is 0.00 Run test function: test_input_attenuation pass! set The set value is 0.01 The return value is 0.01 The expect value is 0.01 Run test function: test_input_attenuation pass! db The set value is 0.01 The return value is 0.01 The expect value is 0.01 Run test function: test_input_attenuation pass! mdb The set value is 0.01 The return value is 0.01 The expect value is 0.01 Run test function: test_input_attenuation pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_input_attenuation" time="0.110">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_input_offset" time="0.139">
+<system-out>
+<![CDATA[
+The scpi command is INP6:CHAN1:Offset/? min The set value is -100.00 The return value is -100.0 The expect value is -100.00 Run test function: test_input_offset pass! max The set value is 100.00 The return value is 100.0 The expect value is 100.00 Run test function: test_input_offset pass! def The set value is 0.00 The return value is 0.0 The expect value is 0.00 Run test function: test_input_offset pass! set The set value is 0.00 The return value is 0.0 The expect value is 0.00 Run test function: test_input_offset pass! The set value is 0.0 The return value is 0.0 The expect value is 0.0 Run test function: test_input_offset pass! db The set value is 0.0 The return value is 0.0 The expect value is 0.0 Run test function: test_input_offset pass! mdb The set value is 0.0 The return value is 0.0 The expect value is 0.0 Run test function: test_input_offset pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_input_offset" time="0.139">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_input_wavelength" time="0.201">
+<system-out>
+<![CDATA[
+The scpi command is INPut6:CHAN1:WAVelength/? min The set value is 1271 The return value is 1271.0 The expect value is 1271 Run test function: test_input_wavelength pass! max The set value is 1550 The return value is 1550.0 The expect value is 1550 Run test function: test_input_wavelength pass! def The set value is 1550 The return value is 1550.0 The expect value is 1550 Run test function: test_input_wavelength pass! set The set value is 1550 The return value is 1550.0 The expect value is 1550 Run test function: test_input_wavelength pass! The set value is 1550.0 The return value is 1550.0 The expect value is 1550.0 Run test function: test_input_wavelength pass! The set value is 1550.0 The return value is 1550.0 The expect value is 1550.0 Run test function: test_input_wavelength pass! The set value is 1550.0 The return value is 1550.0 The expect value is 1550.0 Run test function: test_input_wavelength pass! The set value is 1550.0 The return value is 1550.0 The expect value is 1550.0 Run test function: test_input_wavelength pass! The set value is 1550.0 The return value is 1550.0 The expect value is 1550.0 Run test function: test_input_wavelength pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_input_wavelength" time="0.201">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_channel_power" time="0.089">
+<system-out>
+<![CDATA[
+The scpi command is OUTP6:CHAN1:POWER/? min The set value is -50.00 The return value is -50.0 The expect value is -50.00 Run test function: test_output_channel_power pass! max The set value is 20.00 The return value is 20.0 The expect value is 20.00 Run test function: test_output_channel_power pass! def The set value is 0.00 The return value is 0.0 The expect value is 0.00 Run test function: test_output_channel_power pass! set The set value is -0.20 The return value is -0.2 The expect value is -0.20 Run test function: test_output_channel_power pass! act The set value is -0.25 The return value is -0.25 The expect value is -0.25 Run test function: test_output_channel_power pass! The set value is -0.2 The return value is -0.2 The expect value is -0.2 Run test function: test_output_channel_power pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_channel_power" time="0.089">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_power_averagingtime" time="0.169">
+<system-out>
+<![CDATA[
+The scpi command is OUTP6:CHAN1:POWER:AVERagingtime/? min The set value is 0.000000 The return value is 0.0 The expect value is 0.000000 Run test function: test_output_power_averagingtime pass! max The set value is 10.000000 The return value is 10.0 The expect value is 10.000000 Run test function: test_output_power_averagingtime pass! def The set value is 0.100000 The return value is 0.1 The expect value is 0.100000 Run test function: test_output_power_averagingtime pass! set The set value is 0.001000 The return value is 0.001 The expect value is 0.001000 Run test function: test_output_power_averagingtime pass! The set value is 0.001 The return value is 0.001 The expect value is 0.001 Run test function: test_output_power_averagingtime pass! The set value is 10.0 The return value is 10.0 The expect value is 10.0 Run test function: test_output_power_averagingtime pass! The set value is 10.0 The return value is 10.0 The expect value is 10.0 Run test function: test_output_power_averagingtime pass! The set value is 10.0 The return value is 10.0 The expect value is 10.0 Run test function: test_output_power_averagingtime pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_power_averagingtime" time="0.169">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_power_nulling" time="15.054">
+<system-out>
+<![CDATA[
+The scpi command is OUTP6:CHAN1:POWER:NULLing The set value is 0 The return value is 0 The expect value is 0 Run test function: test_output_power_nulling pass! The set value is 1 The return value is 1 The expect value is 1 Run test function: test_output_power_nulling pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_power_nulling" time="15.054">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_power_offset" time="0.086">
+<system-out>
+<![CDATA[
+The scpi command is OUTP6:CHAN1:POWER:Offset/? min The set value is -100.00 The return value is -100.0 The expect value is -100.00 Run test function: test_output_power_offset pass! max The set value is 100.00 The return value is 100.0 The expect value is 100.00 Run test function: test_output_power_offset pass! def The set value is 0.00 The return value is 0.0 The expect value is 0.00 Run test function: test_output_power_offset pass! set The set value is 0.00 The return value is 0.0 The expect value is 0.00 Run test function: test_output_power_offset pass! The set value is 0.0 The return value is 0.0 The expect value is 0.0 Run test function: test_output_power_offset pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_power_offset" time="0.086">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_trace" time="2.182">
+<system-out>
+<![CDATA[
+The scpi command is OUTPut6:TRACE1 time starts now The scpi command is OUTPut6:TRACE:COMPLETE? It has taken 0 extra seconds to OUTP:TRACE:COMPLETE? to get back to 1 The set value is 1 The return value is 1 The expect value is 1 Run test function: test_output_trace pass! The set value is 10 The return value is 10 The expect value is 10 Run test function: test_output_trace pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_trace" time="2.182">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_trace_points" time="0.047">
+<system-out>
+<![CDATA[
+The scpi command is OUTPut6:TRACE:PoinTS/? The set value is 10.0 The return value is 10.0 The expect value is 10.0 Run test function: test_output_trace_points pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_trace_points" time="0.047">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_trace_rate" time="0.040">
+<system-out>
+<![CDATA[
+The scpi command is OUTPut6:TRACE1:RATE/? The set value is 10.0 The return value is 10.0 The expect value is 10.0 Run test function: test_output_trace_rate pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_output_trace_rate" time="0.040">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_slot_idn" time="0.010">
+<system-out>
+<![CDATA[
+The scpi command is slot6:idn? The set value is idn The return value is Coherent Solutions,VOAPXIe-1002-2-FC,CSL-182202,0.14 The expect value is idn:0.14 Run test function: test_slot_idn pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_slot_idn" time="0.010">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_slot_opc" time="0.020">
+<system-out>
+<![CDATA[
+The scpi command is slot6:opc? The set value is 1 The return value is 1 The expect value is 1 Run test function: test_slot_opc pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_slot_opc" time="0.020">...</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_slot_opt" time="0.001">
+<system-out>
+<![CDATA[
+The scpi command is slot6:opt? slot6:opt? The set value is 2 The return value is 2 The expect value is 2 Run test function: test_slot_opt pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_voa_pxie.test_voa" name="test_slot_opt" time="0.001">...</testcase>
+</testsuite>
+<testsuite name="nosetests" tests="15" errors="0" failures="0" skip="0">...</testsuite>
