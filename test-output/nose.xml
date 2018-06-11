@@ -77,4 +77,3 @@ The scpi command is slot2:opt? slot2:opt? The set value is 1 The return value is
 </testcase>
 <testcase classname="test_switch_pxie.test_switch" name="test_slot_opt" time="0.016">...</testcase>
 </testsuite>
-<testsuite name="nosetests" tests="7" errors="0" failures="1" skip="0">...</testsuite>
