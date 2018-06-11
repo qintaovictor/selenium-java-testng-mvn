@@ -1,0 +1,79 @@
+<testsuite name="nosetests" tests="7" errors="0" failures="1" skip="0">
+<testcase classname="test_switch_pxie.test_switch" name="test_channel_route" time="1.859">
+<system-out>
+<![CDATA[
+asdf The scpi command is rout2:chanA 0 The scpi command is slot2:opc? The scpi command is rout2:chanA? The set value is 0 The return value is 0 The expect value is 0 Run test function: set_channel_route pass! The scpi command is rout2:chanA 1 The scpi command is slot2:opc? The scpi command is rout2:chanA? The set value is 1 The return value is 1 The expect value is 1 Run test function: set_channel_route pass! The scpi command is rout2:chanA 2 The scpi command is slot2:opc? The scpi command is rout2:chanA? The set value is 2 The return value is 2 The expect value is 2 Run test function: set_channel_route pass! The scpi command is rout2:chanA 3 The scpi command is slot2:opc? The scpi command is rout2:chanA? The set value is 3 The return value is 3 The expect value is 3 Run test function: set_channel_route pass! The scpi command is rout2:chanA 4 The scpi command is slot2:opc? The scpi command is rout2:chanA? The set value is 4 The return value is 4 The expect value is 4 Run test function: set_channel_route pass! The scpi command is rout2:chan1 0 The scpi command is slot2:opc? The scpi command is rout2:chan1? The set value is 0 The return value is 0 The expect value is 0 Run test function: set_channel_route pass! The scpi command is rout2:chan1 1 The scpi command is slot2:opc? The scpi command is rout2:chan1? The set value is 1 The return value is 1 The expect value is 1 Run test function: set_channel_route pass! The scpi command is rout2:chan1 2 The scpi command is slot2:opc? The scpi command is rout2:chan1? The set value is 2 The return value is 2 The expect value is 2 Run test function: set_channel_route pass! The scpi command is rout2:chan1 3 The scpi command is slot2:opc? The scpi command is rout2:chan1? The set value is 3 The return value is 3 The expect value is 3 Run test function: set_channel_route pass! The scpi command is rout2:chan1 4 The scpi command is slot2:opc? The scpi command is rout2:chan1? The set value is 4 The return value is 4 The expect value is 4 Run test function: set_channel_route pass! The scpi command is rout2:chanA:state 0 The scpi command is slot2:opc? The scpi command is rout2:chanA:state? The set value is 0 The return value is 0 The expect value is 0 Run test function: set_channel_state pass! The scpi command is rout2:chanA:state 1 The scpi command is slot2:opc? The scpi command is rout2:chanA:state? The set value is 1 The return value is 1 The expect value is 1 Run test function: set_channel_state pass! The scpi command is rout2:chanA:state 2 The scpi command is slot2:opc? The scpi command is rout2:chanA:state? The set value is 2 The return value is 2 The expect value is 2 Run test function: set_channel_state pass! The scpi command is rout2:chanA:state 3 The scpi command is slot2:opc? The scpi command is rout2:chanA:state? The set value is 3 The return value is 3 The expect value is 3 Run test function: set_channel_state pass! The scpi command is rout2:chanA:state 4 The scpi command is slot2:opc? The scpi command is rout2:chanA:state? The set value is 4 The return value is 4 The expect value is 4 Run test function: set_channel_state pass! The scpi command is rout2:chan1:state 0 The scpi command is slot2:opc? The scpi command is rout2:chan1:state? The set value is 0 The return value is 0 The expect value is 0 Run test function: set_channel_state pass! The scpi command is rout2:chan1:state 1 The scpi command is slot2:opc? The scpi command is rout2:chan1:state? The set value is 1 The return value is 1 The expect value is 1 Run test function: set_channel_state pass! The scpi command is rout2:chan1:state 2 The scpi command is slot2:opc? The scpi command is rout2:chan1:state? The set value is 2 The return value is 2 The expect value is 2 Run test function: set_channel_state pass! The scpi command is rout2:chan1:state 3 The scpi command is slot2:opc? The scpi command is rout2:chan1:state? The set value is 3 The return value is 3 The expect value is 3 Run test function: set_channel_state pass! The scpi command is rout2:chan1:state 4 The scpi command is slot2:opc? The scpi command is rout2:chan1:state? The set value is 4 The return value is 4 The expect value is 4 Run test function: set_channel_state pass! The scpi command is :route2:channelA:state 0 The scpi command is slot2:opc? The scpi command is :route2:channelA:state? The set value is 0 The return value is 0 The expect value is 0 Run test function: set_channel_full_command pass! The scpi command is :route2:channelA 0 The scpi command is slot2:opc? The scpi command is :route2:channelA? The set value is 0 The return value is 0 The expect value is 0 Run test function: set_channel_full_command pass! The scpi command is :route2:channelA:state 1 The scpi command is slot2:opc? The scpi command is :route2:channelA:state? The set value is 1 The return value is 1 The expect value is 1 Run test function: set_channel_full_command pass! The scpi command is :route2:channelA 1 The scpi command is slot2:opc? The scpi command is :route2:channelA? The set value is 1 The return value is 1 The expect value is 1 Run test function: set_channel_full_command pass! The scpi command is :route2:channelA:state 2 The scpi command is slot2:opc? The scpi command is :route2:channelA:state? The set value is 2 The return value is 2 The expect value is 2 Run test function: set_channel_full_command pass! The scpi command is :route2:channelA 2 The scpi command is slot2:opc? The scpi command is :route2:channelA? The set value is 2 The return value is 2 The expect value is 2 Run test function: set_channel_full_command pass! The scpi command is :route2:channelA:state 3 The scpi command is slot2:opc? The scpi command is :route2:channelA:state? The set value is 3 The return value is 3 The expect value is 3 Run test function: set_channel_full_command pass! The scpi command is :route2:channelA 3 The scpi command is slot2:opc? The scpi command is :route2:channelA? The set value is 3 The return value is 3 The expect value is 3 Run test function: set_channel_full_command pass! The scpi command is :route2:channelA:state 4 The scpi command is slot2:opc? The scpi command is :route2:channelA:state? The set value is 4 The return value is 4 The expect value is 4 Run test function: set_channel_full_command pass! The scpi command is :route2:channelA 4 The scpi command is slot2:opc? The scpi command is :route2:channelA? The set value is 4 The return value is 4 The expect value is 4 Run test function: set_channel_full_command pass! The scpi command is :route2:channel1:state 0 The scpi command is slot2:opc? The scpi command is :route2:channel1:state? The set value is 0 The return value is 0 The expect value is 0 Run test function: set_channel_full_command pass! The scpi command is :route2:channel1 0 The scpi command is slot2:opc? The scpi command is :route2:channel1? The set value is 0 The return value is 0 The expect value is 0 Run test function: set_channel_full_command pass! The scpi command is :route2:channel1:state 1 The scpi command is slot2:opc? The scpi command is :route2:channel1:state? The set value is 1 The return value is 1 The expect value is 1 Run test function: set_channel_full_command pass! The scpi command is :route2:channel1 1 The scpi command is slot2:opc? The scpi command is :route2:channel1? The set value is 1 The return value is 1 The expect value is 1 Run test function: set_channel_full_command pass! The scpi command is :route2:channel1:state 2 The scpi command is slot2:opc? The scpi command is :route2:channel1:state? The set value is 2 The return value is 2 The expect value is 2 Run test function: set_channel_full_command pass! The scpi command is :route2:channel1 2 The scpi command is slot2:opc? The scpi command is :route2:channel1? The set value is 2 The return value is 2 The expect value is 2 Run test function: set_channel_full_command pass! The scpi command is :route2:channel1:state 3 The scpi command is slot2:opc? The scpi command is :route2:channel1:state? The set value is 3 The return value is 3 The expect value is 3 Run test function: set_channel_full_command pass! The scpi command is :route2:channel1 3 The scpi command is slot2:opc? The scpi command is :route2:channel1? The set value is 3 The return value is 3 The expect value is 3 Run test function: set_channel_full_command pass! The scpi command is :route2:channel1:state 4 The scpi command is slot2:opc? The scpi command is :route2:channel1:state? The set value is 4 The return value is 4 The expect value is 4 Run test function: set_channel_full_command pass! The scpi command is :route2:channel1 4 The scpi command is slot2:opc? The scpi command is :route2:channel1? The set value is 4 The return value is 4 The expect value is 4 Run test function: set_channel_full_command pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_switch_pxie.test_switch" name="test_channel_route" time="1.859">...</testcase>
+<testcase classname="test_switch_pxie.test_switch" name="test_nonexist_channel_error" time="0.032">
+<failure type="exceptions.AssertionError" message=" -------------------- begin captured stdout --------------------- The scpi command is :route2:channel2? Test ':route2:channel2?' fails Test ':route2:channel2:error?' fails The set value is 0 The return value is 0 The expect value is 1 Run test function query_nonexist_channel_error fail! --------------------- end captured stdout ----------------------">
+<![CDATA[
+File "/usr/lib/python2.7/unittest/case.py", line 329, in run testMethod() File "/var/lib/jenkins/workspace/pxi_switch_integration_test/.pyenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest self.test(*self.arg) File "/var/lib/jenkins/workspace/pxi_switch_integration_test/test_switch_pxie.py", line 350, in test_nonexist_channel_error self.test.print_output(flag, "query_nonexist_channel_error", "0", return_error, "1") File "/var/lib/jenkins/workspace/pxi_switch_integration_test/testData.py", line 263, in print_output assert 0 -------------------- >> begin captured stdout << --------------------- The scpi command is :route2:channel2? Test ':route2:channel2?' fails Test ':route2:channel2:error?' fails The set value is 0 The return value is 0 The expect value is 1 Run test function query_nonexist_channel_error fail! --------------------- >> end captured stdout << ----------------------
+]]>
+<![CDATA[...]]>
+</failure>
+<failure type="exceptions.AssertionError" message=" -------------------- begin captured stdout --------------------- The scpi command is :route2:channel2? Test ':route2:channel2?' fails Test ':route2:channel2:error?' fails The set value is 0 The return value is 0 The expect value is 1 Run test function query_nonexist_channel_error fail! --------------------- end captured stdout ----------------------">...</failure>
+<system-out>
+<![CDATA[
+The scpi command is :route2:channel2? Test ':route2:channel2?' fails Test ':route2:channel2:error?' fails The set value is 0 The return value is 0 The expect value is 1 Run test function query_nonexist_channel_error fail!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_switch_pxie.test_switch" name="test_nonexist_channel_error" time="0.032">...</testcase>
+<testcase classname="test_switch_pxie.test_switch" name="test_query_channel_error" time="0.407">
+<system-out>
+<![CDATA[
+The scpi command is :route2:channelA 0 The scpi command is :route2:channelA:error? The set value is 0 The return value is 0 The expect value is 0 Run test function: query_channel_error pass! The scpi command is :route2:channel1 0 The scpi command is :route2:channel1:error? The set value is 0 The return value is 0 The expect value is 0 Run test function: query_channel_error pass! The scpi command is :route2:channelA 1 The scpi command is :route2:channelA:error? The set value is 0 The return value is 0 The expect value is 0 Run test function: query_channel_error pass! The scpi command is :route2:channel1 1 The scpi command is :route2:channel1:error? The set value is 0 The return value is 0 The expect value is 0 Run test function: query_channel_error pass! The scpi command is :route2:channelA 2 The scpi command is :route2:channelA:error? The set value is 0 The return value is 0 The expect value is 0 Run test function: query_channel_error pass! The scpi command is :route2:channel1 2 The scpi command is :route2:channel1:error? The set value is 0 The return value is 0 The expect value is 0 Run test function: query_channel_error pass! The scpi command is :route2:channelA 3 The scpi command is :route2:channelA:error? The set value is 0 The return value is 0 The expect value is 0 Run test function: query_channel_error pass! The scpi command is :route2:channel1 3 The scpi command is :route2:channel1:error? The set value is 0 The return value is 0 The expect value is 0 Run test function: query_channel_error pass! The scpi command is :route2:channelA 4 The scpi command is :route2:channelA:error? The set value is 0 The return value is 0 The expect value is 0 Run test function: query_channel_error pass! The scpi command is :route2:channel1 4 The scpi command is :route2:channel1:error? The set value is 0 The return value is 0 The expect value is 0 Run test function: query_channel_error pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_switch_pxie.test_switch" name="test_query_channel_error" time="0.407">...</testcase>
+<testcase classname="test_switch_pxie.test_switch" name="test_query_switch_error" time="0.020">
+<system-out>
+<![CDATA[
+The scpi command is :route2:channel2 1 The scpi command is :route2:error? The set value is 0 The return value is 0 The expect value is 0 Run test function: query_switch_error pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_switch_pxie.test_switch" name="test_query_switch_error" time="0.020">...</testcase>
+<testcase classname="test_switch_pxie.test_switch" name="test_slot_idn" time="0.020">
+<system-out>
+<![CDATA[
+The scpi command is slot2:idn? The set value is idn The return value is Coherent Solutions,SWITCHPXIe-1003-1-SA,CSL-181104,HW1.0FW1.5 The expect value is idn:HW1.0FW1.5 Run test function: test_slot_idn pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_switch_pxie.test_switch" name="test_slot_idn" time="0.020">...</testcase>
+<testcase classname="test_switch_pxie.test_switch" name="test_slot_opc" time="0.003">
+<system-out>
+<![CDATA[
+The scpi command is slot2:opc? The set value is 1 The return value is 1 The expect value is 1 Run test function: test_slot_opc pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_switch_pxie.test_switch" name="test_slot_opc" time="0.003">...</testcase>
+<testcase classname="test_switch_pxie.test_switch" name="test_slot_opt" time="0.016">
+<system-out>
+<![CDATA[
+The scpi command is slot2:opt? slot2:opt? The set value is 1 The return value is 1 The expect value is 1 Run test function: test_slot_opt pass!
+]]>
+<![CDATA[...]]>
+</system-out>
+<system-out>...</system-out>
+</testcase>
+<testcase classname="test_switch_pxie.test_switch" name="test_slot_opt" time="0.016">...</testcase>
+</testsuite>
