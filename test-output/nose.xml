@@ -9,8 +9,8 @@ asdf The scpi command is rout2:chanA 0 The scpi command is slot2:opc? The scpi c
 <system-out>...</system-out>
 </testcase>
 <testcase classname="test_switch_pxie.test_switch" name="test_channel_route" time="1.859">...</testcase>
-<testcase classname="test_switch_pxie.test_switch" name="test_nonexist_channel_error" time="0.032">
-<failure type="exceptions.AssertionError" message=" -------------------- begin captured stdout --------------------- The scpi command is :route2:channel2? Test ':route2:channel2?' fails Test ':route2:channel2:error?' fails The set value is 0 The return value is 0 The expect value is 1 Run test function query_nonexist_channel_error fail! --------------------- end captured stdout ----------------------">
+<testcase failures="1" classname="test_switch_pxie.test_switch" name="test_nonexist_channel_error" time="0.032">
+<failure failures="1" type="exceptions.AssertionError" message=" -------------------- begin captured stdout --------------------- The scpi command is :route2:channel2? Test ':route2:channel2?' fails Test ':route2:channel2:error?' fails The set value is 0 The return value is 0 The expect value is 1 Run test function query_nonexist_channel_error fail! --------------------- end captured stdout ----------------------">
 <![CDATA[
 File "/usr/lib/python2.7/unittest/case.py", line 329, in run testMethod() File "/var/lib/jenkins/workspace/pxi_switch_integration_test/.pyenv/local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest self.test(*self.arg) File "/var/lib/jenkins/workspace/pxi_switch_integration_test/test_switch_pxie.py", line 350, in test_nonexist_channel_error self.test.print_output(flag, "query_nonexist_channel_error", "0", return_error, "1") File "/var/lib/jenkins/workspace/pxi_switch_integration_test/testData.py", line 263, in print_output assert 0 -------------------- >> begin captured stdout << --------------------- The scpi command is :route2:channel2? Test ':route2:channel2?' fails Test ':route2:channel2:error?' fails The set value is 0 The return value is 0 The expect value is 1 Run test function query_nonexist_channel_error fail! --------------------- >> end captured stdout << ----------------------
 ]]>
@@ -25,7 +25,7 @@ The scpi command is :route2:channel2? Test ':route2:channel2?' fails Test ':rout
 </system-out>
 <system-out>...</system-out>
 </testcase>
-<testcase classname="test_switch_pxie.test_switch" name="test_nonexist_channel_error" time="0.032">...</testcase>
+<testcase failures="1" classname="test_switch_pxie.test_switch" name="test_nonexist_channel_error" time="0.032">...</testcase>
 <testcase classname="test_switch_pxie.test_switch" name="test_query_channel_error" time="0.407">
 <system-out>
 <![CDATA[
